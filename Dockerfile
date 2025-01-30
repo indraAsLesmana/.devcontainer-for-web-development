@@ -30,7 +30,7 @@ RUN apt-get update && apt-get install -y \
 # Install ngrok
 RUN curl -O https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz \
     && tar xvzf ngrok-v3-stable-linux-amd64.tgz -C /usr/local/bin \
-    && rm ngrok-v3-stable-linux-amd64.tgz \
+    && rm ngrok-v3-stable-linux-amd64.tgz
 
 # [Optional] Uncomment this section to install additional OS packages.
 # RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
