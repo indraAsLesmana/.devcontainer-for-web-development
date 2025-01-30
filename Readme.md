@@ -41,4 +41,6 @@ The following tools are installed in the DevContainer:
 
 To use this DevContainer configuration, ensure you have Docker and VSCode with the Remote - Containers extension installed. Open the project in VSCode and it will prompt you to reopen the folder in the container.
 
+Follow [DevContainers setup guide](https://code.visualstudio.com/docs/devcontainers/tutoria)
+
 For more information on DevContainers, visit the [DevContainers documentation](https://code.visualstudio.com/docs/remote/containers).
